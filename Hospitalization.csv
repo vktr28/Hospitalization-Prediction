@@ -1,0 +1,1001 @@
+Patient_id,Age,Gender,Deseases,Comorbidities,Staying_days,Prev_appointments,Treatment_count,Hospitalized_Recently
+1,48,M,Sclerosis,2,4,1,10,Yes
+2,75,M,Diabetes,1,2,0,2,Yes
+3,29,F,Alzheimer's Desease,1,2,1,3,Yes
+4,75,M,Sclerosis,3,4,1,5,Yes
+5,18,M,Flu,0,0,0,0,No
+6,26,M,Diarrhea,0,0,0,0,No
+7,22,M,Alzheimer's Desease,0,0,0,0,Yes
+8,84,M,Stroke,2,2,3,2,Yes
+9,85,M,Cancer,6,10,2,25,Yes
+10,54,M,Asthma,0,0,0,0,Yes
+11,43,F,Asthma,2,2,1,2,Yes
+12,85,F,Cancer,3,2,1,6,Yes
+13,71,F,Diarrhea,5,11,3,22,Yes
+14,68,F,Asthma,2,1,0,0,Yes
+15,27,M,Diabetes,3,2,1,7,Yes
+16,18,M,Sclerosis,0,0,0,0,No
+17,49,M,Heart Desease,2,1,0,4,Yes
+18,57,F,Chronic Pain,1,1,0,2,No
+19,89,M,Flu,6,11,1,18,Yes
+20,62,M,Cancer,6,10,4,17,Yes
+21,89,F,Heart Desease,2,4,1,8,Yes
+22,62,F,Diabetes,2,8,1,6,Yes
+23,78,F,Diarrhea,4,2,2,4,Yes
+24,73,F,Alzheimer's Desease,1,0,3,1,Yes
+25,83,F,Heart Desease,3,7,1,7,Yes
+26,32,F,Asthma,0,0,0,0,Yes
+27,76,F,Chronic Pain,0,0,0,0,Yes
+28,49,F,Diarrhea,1,2,1,3,No
+29,83,F,Cancer,2,2,1,3,Yes
+30,62,F,Asthma,1,0,0,0,Yes
+31,38,M,Asthma,1,1,1,3,Yes
+32,56,F,Diabetes,1,2,0,3,No
+33,27,M,Hypertension,0,0,0,0,No
+34,45,M,Hypertension,1,4,1,3,No
+35,85,F,Alzheimer's Desease,1,2,2,2,Yes
+36,55,F,Flu,2,1,0,2,No
+37,26,F,Alzheimer's Desease,1,3,2,3,Yes
+38,56,F,Cancer,0,0,0,0,Yes
+39,46,F,Stroke,0,0,0,0,Yes
+40,51,M,Diarrhea,1,1,1,5,Yes
+41,18,M,Cancer,1,5,0,7,Yes
+42,27,F,Chronic Pain,2,2,0,1,No
+43,39,M,Hypertension,4,6,2,6,Yes
+44,23,F,Chronic Pain,0,0,0,0,No
+45,84,M,Intoxication,3,4,3,9,Yes
+46,33,M,Sclerosis,0,0,0,0,No
+47,48,F,Heart Desease,3,2,1,7,Yes
+48,30,F,Stroke,2,1,0,3,Yes
+49,28,M,Diarrhea,0,0,0,0,No
+50,87,M,Hypertension,4,3,3,6,Yes
+51,58,F,Heart Desease,3,9,1,11,Yes
+52,87,M,Sclerosis,1,0,1,1,Yes
+53,78,M,Sclerosis,3,2,2,4,Yes
+54,74,F,Heart Desease,1,0,0,2,Yes
+55,64,M,Intoxication,2,3,1,6,Yes
+56,59,F,Diarrhea,3,2,0,6,Yes
+57,78,F,Heart Desease,2,2,1,3,Yes
+58,75,M,Diabetes,4,6,3,9,Yes
+59,88,M,Chronic Pain,3,7,0,13,Yes
+60,46,F,Intoxication,1,2,1,4,No
+61,21,M,Chronic Pain,0,0,0,0,No
+62,56,M,Intoxication,1,1,0,2,No
+63,79,F,Flu,0,0,0,0,Yes
+64,36,M,Diabetes,2,0,1,1,No
+65,21,M,Sclerosis,1,5,1,6,Yes
+66,44,F,Flu,1,2,0,2,No
+67,22,M,Hypertension,0,0,0,0,No
+68,65,M,Hypertension,3,3,1,12,Yes
+69,70,F,Heart Desease,0,0,0,0,Yes
+70,18,F,Intoxication,1,3,2,5,Yes
+71,85,M,Chronic Pain,4,8,2,10,Yes
+72,41,M,Sclerosis,2,3,0,3,No
+73,41,F,Asthma,3,4,1,10,Yes
+74,68,F,Asthma,0,0,0,0,Yes
+75,24,M,Flu,2,1,2,2,No
+76,28,F,Hypertension,0,0,0,0,No
+77,89,F,Diabetes,2,3,1,9,Yes
+78,39,M,Stroke,0,0,0,0,Yes
+79,84,F,Chronic Pain,4,9,8,14,Yes
+80,23,M,Chronic Pain,0,0,0,0,No
+81,29,F,Alzheimer's Desease,0,0,0,0,Yes
+82,41,F,Sclerosis,3,2,2,5,Yes
+83,85,F,Diabetes,6,12,2,15,Yes
+84,78,F,Asthma,1,1,0,1,Yes
+85,67,M,Flu,0,0,0,0,Yes
+86,49,F,Chronic Pain,7,9,3,20,Yes
+87,35,M,Diabetes,2,5,0,4,No
+88,63,M,Stroke,1,4,0,8,Yes
+89,69,M,Asthma,0,0,0,0,Yes
+90,76,F,Alzheimer's Desease,1,5,1,6,Yes
+91,43,M,Asthma,0,0,0,0,Yes
+92,77,F,Flu,3,3,0,9,Yes
+93,88,M,Asthma,4,3,3,5,Yes
+94,89,F,Diabetes,4,6,5,9,Yes
+95,40,F,Diabetes,0,0,0,0,No
+96,46,M,Diarrhea,1,1,0,2,No
+97,51,M,Flu,3,4,4,6,Yes
+98,41,M,Intoxication,0,0,0,0,No
+99,36,M,Intoxication,0,0,0,0,No
+100,57,M,Diabetes,2,5,1,10,Yes
+101,49,M,Cancer,2,3,0,5,Yes
+102,66,F,Diarrhea,1,1,2,0,Yes
+103,61,F,Chronic Pain,3,4,1,7,Yes
+104,23,F,Hypertension,0,0,0,0,No
+105,23,F,Sclerosis,2,5,2,3,No
+106,19,M,Stroke,2,4,0,5,Yes
+107,78,F,Stroke,1,2,0,5,Yes
+108,53,F,Intoxication,2,6,0,11,Yes
+109,84,F,Chronic Pain,6,11,3,17,Yes
+110,48,F,Sclerosis,1,1,0,2,No
+111,32,M,Flu,0,0,0,0,No
+112,35,F,Heart Desease,1,2,0,2,Yes
+113,22,M,Cancer,1,4,0,4,Yes
+114,75,F,Cancer,3,0,2,2,Yes
+115,25,M,Hypertension,1,1,1,1,No
+116,87,F,Intoxication,2,4,1,13,Yes
+117,50,M,Alzheimer's Desease,2,3,1,8,Yes
+118,35,F,Chronic Pain,2,2,0,3,No
+119,66,M,Diarrhea,1,1,0,2,Yes
+120,28,M,Cancer,0,0,0,0,Yes
+121,38,F,Stroke,1,1,0,3,Yes
+122,31,F,Hypertension,0,0,0,0,No
+123,54,F,Stroke,3,2,2,6,Yes
+124,83,M,Heart Desease,4,10,4,12,Yes
+125,36,F,Asthma,0,0,0,0,Yes
+126,54,F,Stroke,2,4,0,10,Yes
+127,66,M,Heart Desease,2,5,3,7,Yes
+128,27,F,Stroke,0,0,0,0,Yes
+129,83,M,Cancer,3,5,2,9,Yes
+130,55,F,Heart Desease,3,6,4,9,Yes
+131,81,F,Asthma,2,3,3,1,Yes
+132,87,M,Cancer,0,0,0,0,Yes
+133,62,M,Asthma,2,0,1,1,Yes
+134,84,F,Asthma,0,0,0,0,Yes
+135,38,F,Cancer,0,0,0,0,Yes
+136,54,F,Diabetes,0,0,0,0,No
+137,52,M,Intoxication,0,0,0,0,No
+138,35,F,Heart Desease,0,0,0,0,Yes
+139,45,F,Intoxication,2,2,0,6,Yes
+140,24,M,Chronic Pain,1,3,2,5,Yes
+141,19,F,Chronic Pain,2,4,1,9,Yes
+142,68,F,Alzheimer's Desease,1,3,1,2,Yes
+143,73,M,Asthma,4,4,2,10,Yes
+144,76,F,Heart Desease,2,3,1,7,Yes
+145,41,F,Intoxication,4,6,3,4,Yes
+146,28,M,Asthma,1,1,2,3,Yes
+147,23,M,Heart Desease,0,0,0,0,Yes
+148,28,M,Diarrhea,2,3,0,7,Yes
+149,86,M,Cancer,5,8,0,16,Yes
+150,44,M,Sclerosis,1,2,0,3,No
+151,77,F,Flu,3,3,0,8,Yes
+152,51,F,Hypertension,0,0,0,0,No
+153,45,M,Intoxication,3,2,3,4,No
+154,43,F,Heart Desease,1,1,1,3,Yes
+155,58,F,Chronic Pain,3,4,1,6,Yes
+156,69,F,Intoxication,2,2,0,5,Yes
+157,33,M,Flu,1,0,1,2,No
+158,30,M,Hypertension,2,3,0,6,Yes
+159,40,F,Cancer,3,5,1,8,Yes
+160,81,M,Cancer,1,1,1,6,Yes
+161,33,M,Sclerosis,3,6,1,7,Yes
+162,23,M,Alzheimer's Desease,1,1,0,2,Yes
+163,54,M,Heart Desease,1,0,0,0,Yes
+164,60,F,Heart Desease,1,3,0,4,Yes
+165,63,F,Asthma,0,0,0,0,Yes
+166,23,M,Cancer,0,0,0,0,Yes
+167,67,M,Cancer,3,4,2,2,Yes
+168,49,F,Heart Desease,2,3,2,3,Yes
+169,64,F,Asthma,2,2,0,4,Yes
+170,45,M,Alzheimer's Desease,3,7,1,12,Yes
+171,34,F,Flu,1,0,0,0,No
+172,38,F,Sclerosis,0,0,0,0,No
+173,60,F,Intoxication,4,7,2,6,Yes
+174,87,F,Flu,0,0,0,0,Yes
+175,85,M,Flu,2,2,1,5,Yes
+176,28,M,Sclerosis,2,4,1,4,No
+177,55,M,Alzheimer's Desease,2,4,3,2,Yes
+178,67,F,Diarrhea,0,0,0,0,Yes
+179,44,F,Sclerosis,3,6,1,5,Yes
+180,83,M,Diabetes,2,0,2,2,Yes
+181,37,M,Stroke,0,0,0,0,Yes
+182,72,M,Diarrhea,2,5,2,9,Yes
+183,56,M,Cancer,0,0,0,0,Yes
+184,75,M,Intoxication,3,2,2,13,Yes
+185,62,M,Sclerosis,2,4,0,5,Yes
+186,82,M,Alzheimer's Desease,1,0,1,0,Yes
+187,66,F,Diarrhea,1,1,0,0,Yes
+188,76,F,Flu,2,1,1,4,Yes
+189,22,M,Diabetes,0,0,0,0,No
+190,80,M,Flu,6,9,6,9,Yes
+191,61,F,Intoxication,1,1,0,3,Yes
+192,74,F,Intoxication,2,3,1,4,Yes
+193,27,F,Stroke,1,0,0,2,Yes
+194,85,F,Diarrhea,3,8,1,12,Yes
+195,57,F,Flu,1,1,0,3,No
+196,57,M,Intoxication,0,0,0,0,No
+197,62,F,Cancer,2,1,1,1,Yes
+198,51,F,Flu,2,3,1,6,Yes
+199,19,F,Stroke,0,0,0,0,Yes
+200,85,F,Chronic Pain,5,6,7,8,Yes
+201,67,F,Cancer,3,4,2,6,Yes
+202,24,M,Heart Desease,0,0,0,0,Yes
+203,54,F,Heart Desease,2,2,0,2,Yes
+204,42,F,Alzheimer's Desease,2,4,1,5,Yes
+205,46,M,Diabetes,1,1,0,4,No
+206,80,M,Heart Desease,1,2,0,2,Yes
+207,74,M,Alzheimer's Desease,1,3,0,3,Yes
+208,73,F,Chronic Pain,1,3,3,3,Yes
+209,28,F,Intoxication,1,2,0,4,No
+210,32,F,Diabetes,1,2,0,4,No
+211,30,F,Hypertension,0,0,0,0,No
+212,49,F,Asthma,2,3,0,6,Yes
+213,52,M,Stroke,2,4,0,9,Yes
+214,68,F,Flu,1,0,1,2,Yes
+215,68,F,Chronic Pain,1,1,0,0,Yes
+216,65,M,Sclerosis,1,2,3,3,Yes
+217,57,F,Diabetes,3,3,0,10,Yes
+218,29,F,Heart Desease,1,1,0,2,Yes
+219,45,M,Asthma,1,2,0,3,Yes
+220,71,F,Stroke,3,3,1,3,Yes
+221,81,F,Diabetes,1,2,0,7,Yes
+222,26,F,Intoxication,1,2,0,3,No
+223,67,M,Chronic Pain,0,0,0,0,Yes
+224,54,F,Heart Desease,3,5,1,9,Yes
+225,32,M,Heart Desease,0,0,0,0,Yes
+226,66,M,Diabetes,3,3,3,6,Yes
+227,44,F,Chronic Pain,3,6,1,13,Yes
+228,44,F,Diabetes,1,3,0,6,Yes
+229,41,M,Alzheimer's Desease,1,1,1,3,Yes
+230,73,M,Sclerosis,2,3,0,9,Yes
+231,88,M,Heart Desease,3,5,2,5,Yes
+232,59,M,Heart Desease,3,7,2,8,Yes
+233,27,M,Diabetes,1,2,1,4,No
+234,24,M,Heart Desease,0,0,0,0,Yes
+235,25,F,Asthma,0,0,0,0,Yes
+236,53,M,Hypertension,3,3,1,6,Yes
+237,56,M,Chronic Pain,2,4,0,9,Yes
+238,29,F,Heart Desease,0,0,0,0,Yes
+239,50,M,Asthma,2,2,0,4,Yes
+240,70,F,Chronic Pain,1,1,0,1,Yes
+241,64,M,Diabetes,0,0,0,0,Yes
+242,20,M,Chronic Pain,0,0,0,0,No
+243,59,M,Sclerosis,4,6,1,10,Yes
+244,74,M,Asthma,5,5,5,14,Yes
+245,32,F,Alzheimer's Desease,1,1,0,1,Yes
+246,25,M,Heart Desease,1,0,1,2,Yes
+247,62,M,Diarrhea,2,2,1,2,Yes
+248,25,M,Intoxication,0,0,0,0,No
+249,75,M,Diabetes,5,6,1,14,Yes
+250,67,M,Asthma,4,5,4,14,Yes
+251,62,M,Chronic Pain,3,5,0,4,Yes
+252,41,M,Chronic Pain,3,5,1,8,Yes
+253,62,F,Chronic Pain,3,5,4,9,Yes
+254,53,F,Diarrhea,4,3,0,6,Yes
+255,41,M,Stroke,1,2,0,9,Yes
+256,87,F,Flu,2,3,5,1,Yes
+257,72,F,Intoxication,4,1,1,5,Yes
+258,33,F,Asthma,0,0,0,0,Yes
+259,77,M,Alzheimer's Desease,1,2,1,1,Yes
+260,67,F,Alzheimer's Desease,0,0,0,0,Yes
+261,44,F,Intoxication,0,0,0,0,No
+262,64,M,Intoxication,5,5,4,10,Yes
+263,84,M,Stroke,2,6,0,7,Yes
+264,39,F,Heart Desease,2,4,1,3,Yes
+265,89,F,Stroke,4,10,2,11,Yes
+266,57,M,Intoxication,2,5,1,10,Yes
+267,20,M,Diabetes,3,6,1,6,Yes
+268,87,F,Stroke,2,3,1,6,Yes
+269,65,F,Stroke,5,5,1,14,Yes
+270,79,M,Chronic Pain,6,3,4,6,Yes
+271,28,M,Hypertension,1,0,2,0,No
+272,47,M,Hypertension,2,5,1,5,Yes
+273,86,M,Hypertension,0,0,0,0,Yes
+274,19,F,Intoxication,1,3,0,4,No
+275,34,F,Hypertension,0,0,0,0,No
+276,46,F,Heart Desease,1,0,1,1,Yes
+277,66,M,Heart Desease,1,0,1,1,Yes
+278,52,M,Chronic Pain,3,6,2,8,Yes
+279,64,M,Diabetes,2,3,1,2,Yes
+280,56,F,Hypertension,1,1,0,0,No
+281,35,M,Heart Desease,3,1,2,3,Yes
+282,63,M,Flu,0,0,0,0,Yes
+283,48,F,Flu,0,0,0,0,No
+284,22,F,Diabetes,0,0,0,0,No
+285,47,F,Intoxication,1,2,1,6,Yes
+286,79,F,Hypertension,4,7,2,8,Yes
+287,36,F,Hypertension,0,0,0,0,No
+288,62,F,Diarrhea,0,0,0,0,Yes
+289,41,M,Chronic Pain,3,4,2,7,Yes
+290,22,M,Diabetes,1,1,2,2,No
+291,70,M,Sclerosis,3,7,0,7,Yes
+292,34,F,Alzheimer's Desease,1,1,2,1,Yes
+293,38,M,Flu,2,5,2,14,Yes
+294,84,F,Alzheimer's Desease,3,2,1,7,Yes
+295,71,M,Stroke,0,0,0,0,Yes
+296,30,M,Alzheimer's Desease,1,1,1,2,Yes
+297,26,F,Sclerosis,0,0,0,0,No
+298,74,M,Heart Desease,3,1,2,5,Yes
+299,62,M,Hypertension,2,3,3,2,Yes
+300,44,M,Diarrhea,0,0,0,0,No
+301,73,F,Flu,0,0,0,0,Yes
+302,39,F,Sclerosis,2,1,1,5,Yes
+303,88,M,Intoxication,4,8,4,13,Yes
+304,83,M,Asthma,0,0,0,0,Yes
+305,65,F,Chronic Pain,3,3,1,8,Yes
+306,46,F,Heart Desease,3,2,1,7,Yes
+307,50,M,Heart Desease,2,1,0,6,Yes
+308,65,F,Sclerosis,1,1,1,2,Yes
+309,69,F,Diabetes,3,7,3,12,Yes
+310,63,M,Hypertension,4,4,0,9,Yes
+311,49,F,Cancer,3,3,2,8,Yes
+312,26,M,Intoxication,2,1,1,3,No
+313,56,M,Diabetes,1,0,0,2,No
+314,48,M,Stroke,1,1,1,3,Yes
+315,64,M,Heart Desease,2,3,0,6,Yes
+316,21,M,Cancer,0,0,0,0,Yes
+317,45,M,Alzheimer's Desease,0,0,0,0,Yes
+318,40,F,Flu,1,0,1,2,No
+319,83,M,Alzheimer's Desease,3,5,1,5,Yes
+320,31,F,Flu,2,3,0,1,No
+321,19,F,Intoxication,1,0,1,0,No
+322,68,F,Heart Desease,6,11,3,16,Yes
+323,56,F,Diarrhea,0,0,0,0,No
+324,38,M,Diabetes,2,1,1,4,No
+325,73,F,Asthma,6,9,4,5,Yes
+326,61,M,Flu,2,0,0,0,Yes
+327,70,F,Stroke,0,0,0,0,Yes
+328,68,F,Intoxication,2,0,0,2,Yes
+329,60,F,Diarrhea,1,2,0,4,Yes
+330,66,F,Diabetes,0,0,0,0,Yes
+331,32,F,Cancer,0,0,0,0,Yes
+332,44,F,Diarrhea,0,0,0,0,No
+333,26,F,Cancer,0,0,0,0,Yes
+334,64,M,Diabetes,3,9,1,20,Yes
+335,19,F,Stroke,2,3,1,5,Yes
+336,69,M,Alzheimer's Desease,2,1,1,3,Yes
+337,23,F,Heart Desease,0,0,0,0,Yes
+338,71,F,Alzheimer's Desease,0,0,0,0,Yes
+339,22,M,Asthma,0,0,0,0,Yes
+340,31,F,Cancer,2,1,3,1,Yes
+341,88,F,Stroke,1,1,0,3,Yes
+342,78,F,Heart Desease,1,2,0,2,Yes
+343,19,F,Diabetes,0,0,0,0,No
+344,80,M,Alzheimer's Desease,1,1,1,2,Yes
+345,78,M,Diarrhea,4,8,3,10,Yes
+346,88,M,Sclerosis,5,4,8,11,Yes
+347,50,M,Alzheimer's Desease,0,0,0,0,Yes
+348,61,M,Sclerosis,1,3,0,2,Yes
+349,73,M,Flu,1,0,0,0,Yes
+350,56,F,Heart Desease,0,0,0,0,Yes
+351,64,M,Asthma,2,3,0,6,Yes
+352,71,M,Sclerosis,0,0,0,0,Yes
+353,52,F,Chronic Pain,3,6,2,6,Yes
+354,82,M,Diarrhea,3,4,1,4,Yes
+355,21,M,Sclerosis,0,0,0,0,No
+356,29,M,Chronic Pain,2,4,1,9,Yes
+357,26,F,Heart Desease,0,0,0,0,Yes
+358,64,F,Sclerosis,2,3,0,8,Yes
+359,70,M,Flu,1,0,0,1,Yes
+360,77,M,Hypertension,2,0,1,3,Yes
+361,47,F,Chronic Pain,2,2,1,6,Yes
+362,29,F,Stroke,2,1,0,3,Yes
+363,53,F,Alzheimer's Desease,1,0,0,2,Yes
+364,48,M,Diabetes,1,1,0,3,No
+365,87,F,Heart Desease,6,6,3,15,Yes
+366,32,F,Cancer,1,2,0,2,Yes
+367,70,M,Flu,2,6,1,12,Yes
+368,77,F,Alzheimer's Desease,2,4,0,5,Yes
+369,71,F,Asthma,0,0,0,0,Yes
+370,53,M,Sclerosis,1,1,0,3,No
+371,68,F,Chronic Pain,1,1,1,1,Yes
+372,71,M,Flu,2,5,1,7,Yes
+373,48,F,Hypertension,1,2,1,4,No
+374,64,M,Diarrhea,1,2,2,5,Yes
+375,33,M,Hypertension,0,0,0,0,No
+376,88,F,Stroke,3,4,0,7,Yes
+377,78,F,Asthma,3,7,1,10,Yes
+378,85,F,Heart Desease,3,3,0,5,Yes
+379,18,M,Heart Desease,0,0,0,0,Yes
+380,37,M,Asthma,0,0,0,0,Yes
+381,31,M,Intoxication,1,1,1,0,No
+382,70,F,Diabetes,0,0,0,0,Yes
+383,19,F,Heart Desease,1,1,1,5,Yes
+384,68,M,Alzheimer's Desease,4,12,3,14,Yes
+385,43,F,Intoxication,1,0,0,0,No
+386,69,F,Flu,3,4,0,4,Yes
+387,78,F,Asthma,1,1,1,1,Yes
+388,59,F,Stroke,1,2,1,2,Yes
+389,57,F,Diarrhea,4,6,2,3,Yes
+390,86,F,Asthma,3,7,4,8,Yes
+391,57,F,Sclerosis,1,2,1,4,No
+392,30,F,Chronic Pain,1,1,1,1,No
+393,53,M,Hypertension,6,15,2,26,Yes
+394,68,F,Asthma,0,0,0,0,Yes
+395,60,F,Cancer,3,4,1,4,Yes
+396,27,F,Intoxication,0,0,0,0,No
+397,42,F,Heart Desease,2,3,0,7,Yes
+398,70,M,Flu,1,3,0,6,Yes
+399,19,F,Flu,1,2,1,3,No
+400,44,M,Heart Desease,2,6,1,8,Yes
+401,34,M,Chronic Pain,2,4,0,8,Yes
+402,67,M,Diarrhea,3,7,1,9,Yes
+403,41,M,Intoxication,0,0,0,0,No
+404,74,M,Sclerosis,2,3,0,3,Yes
+405,89,M,Stroke,1,2,0,2,Yes
+406,64,F,Intoxication,2,4,0,6,Yes
+407,85,F,Sclerosis,4,2,4,4,Yes
+408,35,F,Hypertension,1,3,1,8,Yes
+409,42,F,Diarrhea,2,2,3,6,Yes
+410,82,F,Asthma,3,4,0,4,Yes
+411,76,M,Stroke,2,4,0,5,Yes
+412,21,F,Stroke,0,0,0,0,Yes
+413,84,F,Alzheimer's Desease,5,11,2,15,Yes
+414,52,F,Heart Desease,3,4,0,8,Yes
+415,29,F,Hypertension,1,4,1,6,Yes
+416,79,M,Asthma,2,5,0,8,Yes
+417,51,M,Alzheimer's Desease,1,2,1,4,Yes
+418,33,M,Asthma,1,4,1,3,Yes
+419,77,M,Diabetes,4,5,6,6,Yes
+420,81,F,Diabetes,8,8,7,9,Yes
+421,21,M,Intoxication,0,0,0,0,No
+422,41,M,Hypertension,1,1,1,0,No
+423,24,M,Hypertension,1,1,0,4,No
+424,68,M,Intoxication,2,0,3,2,Yes
+425,24,M,Cancer,1,1,2,2,Yes
+426,59,M,Diabetes,4,7,1,6,Yes
+427,72,M,Cancer,4,7,3,8,Yes
+428,46,M,Diarrhea,2,2,2,4,No
+429,23,F,Hypertension,0,0,0,0,No
+430,64,M,Diarrhea,4,7,1,15,Yes
+431,43,M,Hypertension,2,5,0,13,Yes
+432,84,F,Heart Desease,2,4,1,7,Yes
+433,39,F,Alzheimer's Desease,0,0,0,0,Yes
+434,88,M,Cancer,4,5,3,9,Yes
+435,21,M,Diarrhea,1,3,0,2,No
+436,31,M,Asthma,0,0,0,0,Yes
+437,55,F,Flu,0,0,0,0,No
+438,62,M,Alzheimer's Desease,1,1,0,1,Yes
+439,72,F,Flu,1,0,0,1,Yes
+440,41,M,Asthma,1,0,0,1,Yes
+441,38,M,Sclerosis,0,0,0,0,No
+442,28,F,Intoxication,0,0,0,0,No
+443,25,F,Chronic Pain,0,0,0,0,No
+444,34,F,Hypertension,3,5,2,5,Yes
+445,87,M,Intoxication,5,9,3,13,Yes
+446,27,M,Diarrhea,5,6,2,14,Yes
+447,44,F,Chronic Pain,0,0,0,0,No
+448,56,M,Asthma,2,6,1,4,Yes
+449,84,M,Diabetes,4,6,2,8,Yes
+450,59,M,Stroke,2,0,2,1,Yes
+451,21,M,Stroke,0,0,0,0,Yes
+452,76,M,Flu,3,5,1,3,Yes
+453,78,M,Stroke,2,4,1,11,Yes
+454,25,F,Flu,1,2,1,3,No
+455,40,M,Diabetes,0,0,0,0,No
+456,61,F,Heart Desease,1,0,0,1,Yes
+457,54,M,Heart Desease,1,4,2,3,Yes
+458,56,M,Cancer,1,1,0,1,Yes
+459,37,M,Heart Desease,0,0,0,0,Yes
+460,68,F,Asthma,1,0,0,0,Yes
+461,46,F,Hypertension,3,3,4,7,Yes
+462,64,F,Cancer,1,4,2,12,Yes
+463,18,F,Cancer,0,0,0,0,Yes
+464,46,M,Heart Desease,2,2,1,6,Yes
+465,42,M,Stroke,2,0,1,2,Yes
+466,84,M,Intoxication,4,7,2,12,Yes
+467,26,F,Stroke,2,1,1,6,Yes
+468,36,F,Alzheimer's Desease,2,2,2,3,Yes
+469,74,M,Diabetes,1,1,0,2,Yes
+470,66,M,Diarrhea,3,8,1,6,Yes
+471,23,M,Chronic Pain,0,0,0,0,No
+472,86,F,Asthma,5,6,1,8,Yes
+473,79,F,Asthma,2,6,1,7,Yes
+474,44,M,Diarrhea,3,3,1,5,Yes
+475,87,M,Chronic Pain,2,1,1,4,Yes
+476,46,F,Sclerosis,4,6,2,14,Yes
+477,25,F,Cancer,2,6,1,7,Yes
+478,89,F,Chronic Pain,3,3,0,3,Yes
+479,36,M,Asthma,2,3,0,8,Yes
+480,24,F,Flu,0,0,0,0,No
+481,40,F,Sclerosis,0,0,0,0,No
+482,84,F,Diarrhea,4,9,1,8,Yes
+483,25,F,Alzheimer's Desease,2,5,2,11,Yes
+484,65,F,Heart Desease,5,11,2,14,Yes
+485,73,M,Diarrhea,0,0,0,0,Yes
+486,61,M,Alzheimer's Desease,3,5,2,11,Yes
+487,58,F,Chronic Pain,3,5,2,14,Yes
+488,79,M,Stroke,2,2,2,5,Yes
+489,32,F,Diarrhea,0,0,0,0,No
+490,75,F,Intoxication,3,3,1,6,Yes
+491,19,F,Flu,0,0,0,0,No
+492,45,M,Hypertension,4,8,1,11,Yes
+493,47,M,Diabetes,0,0,0,0,No
+494,22,F,Intoxication,1,1,0,2,No
+495,27,F,Alzheimer's Desease,3,3,4,6,Yes
+496,69,F,Diarrhea,3,3,1,7,Yes
+497,48,M,Flu,1,0,1,2,No
+498,60,F,Alzheimer's Desease,1,1,0,5,Yes
+499,40,M,Intoxication,0,0,0,0,No
+500,54,F,Intoxication,2,1,3,3,No
+501,58,M,Flu,3,6,5,9,Yes
+502,37,F,Diarrhea,2,3,6,4,No
+503,69,M,Diabetes,0,0,0,0,Yes
+504,68,F,Heart Desease,4,6,0,4,Yes
+505,18,F,Chronic Pain,0,0,0,0,No
+506,43,M,Heart Desease,0,0,0,0,Yes
+507,64,F,Alzheimer's Desease,5,8,3,11,Yes
+508,28,F,Hypertension,0,0,0,0,No
+509,62,F,Intoxication,0,0,0,0,Yes
+510,76,M,Stroke,1,4,0,6,Yes
+511,36,M,Sclerosis,0,0,0,0,No
+512,47,F,Intoxication,0,0,0,0,No
+513,54,F,Flu,3,4,3,8,Yes
+514,58,F,Stroke,3,4,1,10,Yes
+515,49,M,Stroke,1,2,0,5,Yes
+516,37,M,Heart Desease,1,2,0,3,Yes
+517,27,M,Diarrhea,0,0,0,0,No
+518,49,F,Chronic Pain,3,8,2,11,Yes
+519,33,M,Hypertension,2,3,3,8,Yes
+520,34,M,Intoxication,2,5,0,5,Yes
+521,89,F,Diabetes,3,5,0,10,Yes
+522,52,F,Chronic Pain,0,0,0,0,No
+523,78,F,Intoxication,4,7,0,9,Yes
+524,80,M,Flu,3,2,1,6,Yes
+525,36,F,Diabetes,4,7,6,11,Yes
+526,70,M,Stroke,1,3,0,5,Yes
+527,53,F,Sclerosis,1,0,0,1,No
+528,22,M,Diabetes,4,10,1,18,Yes
+529,69,M,Hypertension,2,2,0,4,Yes
+530,50,F,Alzheimer's Desease,4,5,2,10,Yes
+531,53,M,Sclerosis,2,5,2,12,Yes
+532,34,F,Sclerosis,1,1,0,6,Yes
+533,50,M,Hypertension,2,1,0,5,Yes
+534,27,M,Diabetes,4,8,1,13,Yes
+535,29,F,Cancer,0,0,0,0,Yes
+536,68,M,Cancer,4,6,1,9,Yes
+537,51,F,Hypertension,0,0,0,0,No
+538,89,F,Chronic Pain,6,5,0,15,Yes
+539,84,F,Alzheimer's Desease,5,7,4,12,Yes
+540,32,M,Sclerosis,1,3,1,1,No
+541,59,M,Flu,2,1,1,2,No
+542,39,M,Diabetes,2,5,0,7,Yes
+543,31,F,Alzheimer's Desease,0,0,0,0,Yes
+544,26,M,Diabetes,0,0,0,0,No
+545,72,F,Flu,0,0,0,0,Yes
+546,40,M,Cancer,1,1,2,2,Yes
+547,58,M,Diarrhea,1,3,1,2,No
+548,89,F,Cancer,3,2,2,8,Yes
+549,33,M,Chronic Pain,3,6,1,17,Yes
+550,31,M,Cancer,0,0,0,0,Yes
+551,87,F,Alzheimer's Desease,2,4,1,8,Yes
+552,81,M,Chronic Pain,4,2,2,6,Yes
+553,68,F,Diabetes,2,3,0,2,Yes
+554,36,F,Chronic Pain,1,1,1,0,No
+555,39,M,Diarrhea,2,4,1,2,No
+556,53,F,Alzheimer's Desease,0,0,0,0,Yes
+557,33,F,Sclerosis,1,0,0,2,No
+558,57,F,Stroke,2,6,1,5,Yes
+559,32,F,Diarrhea,2,4,0,7,Yes
+560,80,F,Cancer,0,0,0,0,Yes
+561,76,M,Diabetes,2,4,0,6,Yes
+562,60,F,Alzheimer's Desease,3,1,1,5,Yes
+563,58,M,Hypertension,2,2,0,3,No
+564,57,M,Diabetes,1,2,0,2,No
+565,60,M,Cancer,0,0,0,0,Yes
+566,73,F,Cancer,1,2,0,0,Yes
+567,19,M,Cancer,1,1,0,1,Yes
+568,24,F,Diarrhea,3,4,0,8,Yes
+569,76,F,Diarrhea,4,8,2,7,Yes
+570,56,F,Intoxication,3,5,1,7,Yes
+571,51,F,Hypertension,0,0,0,0,No
+572,32,M,Intoxication,0,0,0,0,No
+573,60,M,Cancer,2,2,0,1,Yes
+574,35,F,Chronic Pain,2,4,1,6,Yes
+575,30,M,Cancer,1,3,0,5,Yes
+576,83,M,Stroke,4,4,2,6,Yes
+577,47,F,Diarrhea,1,1,1,2,No
+578,86,M,Chronic Pain,2,8,0,8,Yes
+579,52,M,Stroke,1,2,1,1,Yes
+580,32,M,Asthma,3,6,3,9,Yes
+581,56,M,Diarrhea,1,1,2,1,No
+582,87,M,Stroke,2,2,1,3,Yes
+583,86,M,Diarrhea,5,6,2,17,Yes
+584,51,F,Hypertension,1,1,0,3,No
+585,56,F,Intoxication,2,1,0,3,No
+586,84,M,Chronic Pain,0,0,0,0,Yes
+587,58,M,Alzheimer's Desease,3,3,1,10,Yes
+588,48,M,Heart Desease,1,1,0,1,Yes
+589,85,F,Chronic Pain,5,10,3,15,Yes
+590,64,F,Flu,1,0,0,0,Yes
+591,22,F,Cancer,0,0,0,0,Yes
+592,70,M,Diabetes,6,10,4,12,Yes
+593,88,F,Flu,5,9,3,13,Yes
+594,29,M,Hypertension,0,0,0,0,No
+595,63,F,Chronic Pain,4,4,0,5,Yes
+596,26,M,Diabetes,0,0,0,0,No
+597,66,M,Chronic Pain,3,3,0,7,Yes
+598,53,M,Intoxication,2,7,1,8,Yes
+599,33,F,Intoxication,1,1,1,2,No
+600,81,M,Asthma,1,2,0,1,Yes
+601,80,M,Diarrhea,5,8,0,16,Yes
+602,64,M,Intoxication,0,0,0,0,Yes
+603,89,M,Asthma,1,2,0,5,Yes
+604,51,F,Diabetes,5,11,0,18,Yes
+605,40,M,Stroke,2,3,4,8,Yes
+606,49,F,Hypertension,1,1,0,2,No
+607,81,M,Intoxication,2,4,0,5,Yes
+608,59,M,Intoxication,3,7,0,7,Yes
+609,80,F,Stroke,2,1,0,0,Yes
+610,24,F,Intoxication,0,0,0,0,No
+611,22,M,Heart Desease,0,0,0,0,Yes
+612,83,M,Diarrhea,4,4,1,11,Yes
+613,50,F,Cancer,1,0,0,0,Yes
+614,77,F,Intoxication,3,5,4,11,Yes
+615,47,F,Intoxication,1,1,0,2,No
+616,61,M,Hypertension,1,1,0,2,Yes
+617,23,F,Flu,0,0,0,0,No
+618,76,F,Asthma,1,1,0,2,Yes
+619,66,M,Heart Desease,2,6,0,9,Yes
+620,85,M,Chronic Pain,1,2,0,5,Yes
+621,38,M,Cancer,2,1,0,3,Yes
+622,66,M,Flu,1,4,1,5,Yes
+623,53,F,Alzheimer's Desease,1,0,0,3,Yes
+624,45,F,Intoxication,1,1,0,3,No
+625,41,F,Stroke,0,0,0,0,Yes
+626,23,M,Alzheimer's Desease,1,1,1,1,Yes
+627,84,F,Hypertension,1,2,0,3,Yes
+628,88,F,Heart Desease,3,6,1,10,Yes
+629,20,M,Stroke,0,0,0,0,Yes
+630,37,M,Heart Desease,0,0,0,0,Yes
+631,77,M,Cancer,3,4,1,3,Yes
+632,44,M,Asthma,1,1,0,2,Yes
+633,82,F,Hypertension,3,3,3,3,Yes
+634,82,F,Diabetes,1,0,1,0,Yes
+635,64,M,Stroke,1,0,1,1,Yes
+636,54,M,Intoxication,4,9,2,12,Yes
+637,61,F,Heart Desease,1,1,0,1,Yes
+638,27,F,Hypertension,0,0,0,0,No
+639,80,F,Flu,2,2,0,2,Yes
+640,39,F,Chronic Pain,3,3,5,12,Yes
+641,25,F,Flu,0,0,0,0,No
+642,63,F,Cancer,1,1,0,1,Yes
+643,23,F,Diabetes,1,2,1,3,No
+644,53,F,Cancer,2,2,0,4,Yes
+645,62,M,Alzheimer's Desease,4,2,1,3,Yes
+646,46,F,Heart Desease,1,0,0,1,Yes
+647,18,F,Stroke,3,1,2,4,Yes
+648,89,F,Chronic Pain,3,4,1,10,Yes
+649,89,F,Alzheimer's Desease,0,0,0,0,Yes
+650,61,F,Sclerosis,2,2,1,4,Yes
+651,86,M,Stroke,2,7,1,10,Yes
+652,34,F,Sclerosis,1,3,0,2,No
+653,30,M,Intoxication,1,0,1,0,No
+654,28,M,Hypertension,2,4,0,3,No
+655,64,M,Stroke,3,5,1,8,Yes
+656,87,F,Sclerosis,2,7,2,11,Yes
+657,18,F,Alzheimer's Desease,2,2,0,9,Yes
+658,61,F,Cancer,2,4,1,7,Yes
+659,18,M,Alzheimer's Desease,2,3,0,6,Yes
+660,23,F,Asthma,0,0,0,0,Yes
+661,46,F,Alzheimer's Desease,1,1,0,4,Yes
+662,24,F,Heart Desease,0,0,0,0,Yes
+663,58,F,Flu,4,5,1,11,Yes
+664,69,M,Chronic Pain,0,0,0,0,Yes
+665,25,M,Stroke,3,9,2,17,Yes
+666,21,F,Cancer,0,0,0,0,Yes
+667,47,F,Hypertension,2,3,2,6,Yes
+668,54,M,Intoxication,0,0,0,0,No
+669,75,M,Diarrhea,1,4,1,5,Yes
+670,82,M,Sclerosis,7,7,3,10,Yes
+671,20,F,Heart Desease,3,4,0,13,Yes
+672,53,M,Alzheimer's Desease,1,1,1,3,Yes
+673,54,M,Heart Desease,1,1,1,1,Yes
+674,77,M,Hypertension,1,1,0,4,Yes
+675,37,M,Sclerosis,1,2,0,5,Yes
+676,31,F,Chronic Pain,1,2,0,5,Yes
+677,58,F,Heart Desease,5,10,5,7,Yes
+678,56,F,Heart Desease,0,0,0,0,Yes
+679,50,F,Asthma,1,3,0,5,Yes
+680,31,F,Diarrhea,0,0,0,0,No
+681,43,M,Cancer,1,1,0,2,Yes
+682,50,M,Alzheimer's Desease,2,3,1,2,Yes
+683,45,F,Chronic Pain,1,1,0,4,No
+684,69,F,Chronic Pain,5,12,3,19,Yes
+685,30,M,Chronic Pain,1,1,0,5,Yes
+686,28,F,Cancer,1,3,1,3,Yes
+687,36,F,Diabetes,1,1,0,0,No
+688,67,F,Hypertension,0,0,0,0,Yes
+689,64,M,Diabetes,1,4,0,10,Yes
+690,39,F,Alzheimer's Desease,1,0,1,0,Yes
+691,31,F,Sclerosis,0,0,0,0,No
+692,29,F,Heart Desease,0,0,0,0,Yes
+693,89,F,Flu,3,3,2,8,Yes
+694,29,F,Chronic Pain,2,7,2,9,Yes
+695,88,M,Heart Desease,4,8,1,9,Yes
+696,58,F,Alzheimer's Desease,3,5,2,9,Yes
+697,87,M,Heart Desease,2,6,1,5,Yes
+698,33,M,Alzheimer's Desease,1,2,0,3,Yes
+699,48,M,Diarrhea,2,2,0,5,Yes
+700,68,M,Sclerosis,2,2,1,4,Yes
+701,87,M,Diarrhea,4,4,4,2,Yes
+702,27,M,Flu,1,2,0,3,No
+703,85,M,Hypertension,2,2,2,3,Yes
+704,70,F,Intoxication,1,0,0,0,Yes
+705,23,M,Diarrhea,0,0,0,0,No
+706,84,M,Alzheimer's Desease,1,1,2,1,Yes
+707,20,F,Chronic Pain,0,0,0,0,No
+708,27,M,Cancer,0,0,0,0,Yes
+709,62,M,Chronic Pain,1,0,0,1,Yes
+710,81,F,Diabetes,6,3,3,3,Yes
+711,61,F,Diabetes,0,0,0,0,Yes
+712,20,M,Asthma,0,0,0,0,Yes
+713,42,M,Diabetes,0,0,0,0,No
+714,28,F,Hypertension,1,0,1,1,No
+715,19,F,Cancer,1,1,0,3,Yes
+716,78,M,Intoxication,4,12,2,16,Yes
+717,31,M,Diarrhea,1,2,0,5,Yes
+718,44,M,Stroke,2,3,1,5,Yes
+719,33,M,Chronic Pain,1,2,0,4,No
+720,46,F,Hypertension,1,1,0,0,No
+721,38,M,Stroke,1,0,0,1,Yes
+722,70,M,Sclerosis,0,0,0,0,Yes
+723,40,F,Diarrhea,2,4,1,1,No
+724,76,F,Cancer,2,3,1,2,Yes
+725,19,F,Chronic Pain,1,1,2,1,No
+726,85,F,Diarrhea,0,0,0,0,Yes
+727,76,F,Asthma,3,3,0,4,Yes
+728,59,F,Intoxication,2,2,1,4,No
+729,48,F,Stroke,2,4,0,7,Yes
+730,70,F,Asthma,2,5,1,7,Yes
+731,71,M,Intoxication,6,9,1,13,Yes
+732,23,M,Chronic Pain,0,0,0,0,No
+733,47,M,Chronic Pain,0,0,0,0,No
+734,22,F,Sclerosis,2,4,1,4,No
+735,84,M,Alzheimer's Desease,3,7,2,12,Yes
+736,89,F,Flu,2,5,1,6,Yes
+737,40,M,Heart Desease,0,0,0,0,Yes
+738,45,M,Chronic Pain,1,1,0,2,No
+739,31,F,Heart Desease,1,0,1,1,Yes
+740,44,M,Diarrhea,3,3,3,11,Yes
+741,89,F,Heart Desease,1,0,0,3,Yes
+742,40,F,Heart Desease,1,0,0,2,Yes
+743,35,M,Flu,1,2,0,4,No
+744,74,F,Sclerosis,2,6,2,4,Yes
+745,85,F,Stroke,2,1,1,1,Yes
+746,25,M,Diarrhea,1,1,0,2,No
+747,61,F,Asthma,0,0,0,0,Yes
+748,26,M,Alzheimer's Desease,0,0,0,0,Yes
+749,36,M,Flu,0,0,0,0,No
+750,35,F,Stroke,2,3,0,2,Yes
+751,37,F,Intoxication,0,0,0,0,No
+752,87,F,Intoxication,3,6,4,6,Yes
+753,82,F,Diabetes,1,3,0,7,Yes
+754,66,M,Flu,1,3,0,2,Yes
+755,30,F,Diabetes,0,0,0,0,No
+756,38,F,Asthma,0,0,0,0,Yes
+757,76,F,Diabetes,0,0,0,0,Yes
+758,61,F,Intoxication,0,0,0,0,Yes
+759,41,F,Alzheimer's Desease,2,4,0,8,Yes
+760,79,M,Heart Desease,3,5,2,8,Yes
+761,63,M,Hypertension,0,0,0,0,Yes
+762,68,M,Diarrhea,3,5,4,8,Yes
+763,80,F,Diabetes,2,1,0,4,Yes
+764,21,M,Intoxication,0,0,0,0,No
+765,73,F,Intoxication,3,4,4,5,Yes
+766,89,M,Cancer,3,4,3,8,Yes
+767,40,F,Sclerosis,1,1,1,2,No
+768,60,F,Heart Desease,5,11,5,11,Yes
+769,64,M,Intoxication,5,8,4,11,Yes
+770,79,M,Asthma,0,0,0,0,Yes
+771,83,M,Chronic Pain,2,2,1,3,Yes
+772,33,M,Asthma,3,3,1,5,Yes
+773,30,M,Sclerosis,2,3,4,4,No
+774,29,M,Diarrhea,1,0,1,0,No
+775,26,F,Cancer,1,0,1,0,Yes
+776,51,F,Hypertension,1,2,0,2,No
+777,51,M,Chronic Pain,3,4,1,6,Yes
+778,74,M,Heart Desease,5,5,4,8,Yes
+779,43,M,Alzheimer's Desease,2,3,2,7,Yes
+780,49,M,Intoxication,3,8,0,14,Yes
+781,68,F,Intoxication,0,0,0,0,Yes
+782,26,M,Asthma,0,0,0,0,Yes
+783,20,F,Flu,1,2,0,4,No
+784,37,F,Alzheimer's Desease,1,3,0,2,Yes
+785,74,M,Diabetes,3,2,5,3,Yes
+786,46,M,Intoxication,2,4,1,3,No
+787,87,F,Diabetes,2,1,2,0,Yes
+788,26,F,Sclerosis,2,3,2,5,Yes
+789,67,M,Sclerosis,1,0,0,0,Yes
+790,30,M,Intoxication,1,1,0,4,No
+791,48,F,Flu,3,1,0,6,Yes
+792,44,F,Asthma,0,0,0,0,Yes
+793,30,M,Diarrhea,0,0,0,0,No
+794,65,F,Cancer,0,0,0,0,Yes
+795,41,M,Diabetes,3,4,1,9,Yes
+796,41,M,Diarrhea,1,2,1,5,Yes
+797,55,F,Flu,2,1,1,5,Yes
+798,81,M,Diabetes,0,0,0,0,Yes
+799,56,M,Alzheimer's Desease,0,0,0,0,Yes
+800,25,F,Diabetes,1,3,0,5,Yes
+801,83,M,Intoxication,1,0,0,0,Yes
+802,27,M,Intoxication,0,0,0,0,No
+803,48,F,Diabetes,1,4,2,4,No
+804,73,M,Chronic Pain,6,5,5,12,Yes
+805,89,M,Chronic Pain,2,2,1,0,Yes
+806,71,M,Hypertension,1,2,0,7,Yes
+807,60,F,Hypertension,3,9,0,10,Yes
+808,24,F,Diabetes,0,0,0,0,No
+809,83,M,Flu,2,4,1,4,Yes
+810,28,F,Stroke,0,0,0,0,Yes
+811,79,F,Diabetes,3,3,1,8,Yes
+812,29,F,Asthma,0,0,0,0,Yes
+813,75,M,Heart Desease,2,3,1,2,Yes
+814,56,M,Heart Desease,3,6,6,6,Yes
+815,86,F,Chronic Pain,4,12,2,15,Yes
+816,32,M,Intoxication,2,5,4,3,No
+817,63,M,Flu,2,6,1,5,Yes
+818,58,F,Heart Desease,3,3,1,3,Yes
+819,23,F,Cancer,2,1,2,2,Yes
+820,34,F,Heart Desease,2,2,2,1,Yes
+821,50,F,Chronic Pain,1,0,2,3,No
+822,46,F,Chronic Pain,1,0,1,0,No
+823,26,M,Intoxication,2,1,0,4,No
+824,26,M,Diarrhea,0,0,0,0,No
+825,19,M,Diabetes,1,1,1,0,No
+826,28,F,Cancer,0,0,0,0,Yes
+827,67,M,Alzheimer's Desease,2,3,0,4,Yes
+828,20,F,Cancer,0,0,0,0,Yes
+829,80,F,Sclerosis,2,2,1,8,Yes
+830,25,M,Flu,1,0,0,0,No
+831,41,M,Hypertension,2,3,2,7,Yes
+832,39,M,Stroke,4,4,4,9,Yes
+833,33,F,Alzheimer's Desease,0,0,0,0,Yes
+834,31,F,Stroke,4,5,3,11,Yes
+835,54,M,Alzheimer's Desease,4,7,3,10,Yes
+836,40,F,Diabetes,1,2,0,5,Yes
+837,45,M,Stroke,2,1,0,3,Yes
+838,77,F,Chronic Pain,4,6,2,13,Yes
+839,68,M,Diabetes,2,3,0,2,Yes
+840,85,F,Sclerosis,1,2,0,5,Yes
+841,53,F,Sclerosis,2,2,0,3,No
+842,59,M,Heart Desease,3,1,1,3,Yes
+843,64,F,Stroke,3,2,5,5,Yes
+844,73,F,Chronic Pain,1,2,2,1,Yes
+845,23,F,Hypertension,0,0,0,0,No
+846,47,M,Cancer,1,2,0,5,Yes
+847,76,M,Cancer,1,3,0,5,Yes
+848,63,M,Intoxication,1,3,0,9,Yes
+849,55,M,Hypertension,1,3,0,7,Yes
+850,72,M,Flu,2,4,0,5,Yes
+851,48,F,Sclerosis,2,2,1,4,No
+852,83,F,Sclerosis,0,0,0,0,Yes
+853,29,F,Stroke,1,3,1,8,Yes
+854,77,M,Diabetes,3,2,0,3,Yes
+855,29,F,Stroke,2,2,2,4,Yes
+856,19,M,Sclerosis,1,1,0,3,No
+857,40,F,Diabetes,0,0,0,0,No
+858,72,M,Sclerosis,3,6,2,10,Yes
+859,23,F,Chronic Pain,1,0,1,1,No
+860,88,F,Alzheimer's Desease,1,3,0,6,Yes
+861,61,F,Cancer,1,3,1,5,Yes
+862,36,F,Cancer,0,0,0,0,Yes
+863,33,M,Stroke,2,3,1,5,Yes
+864,26,F,Flu,2,3,0,6,Yes
+865,89,F,Sclerosis,1,3,0,3,Yes
+866,59,F,Sclerosis,1,1,1,2,No
+867,39,M,Stroke,1,1,0,4,Yes
+868,63,M,Alzheimer's Desease,5,8,1,12,Yes
+869,82,F,Sclerosis,1,0,0,2,Yes
+870,74,M,Cancer,4,5,4,11,Yes
+871,47,M,Intoxication,2,1,0,2,No
+872,64,F,Alzheimer's Desease,2,2,1,4,Yes
+873,88,F,Alzheimer's Desease,3,7,3,12,Yes
+874,81,M,Alzheimer's Desease,0,0,0,0,Yes
+875,71,M,Cancer,3,1,1,5,Yes
+876,58,F,Asthma,2,2,1,6,Yes
+877,33,M,Stroke,0,0,0,0,Yes
+878,60,F,Alzheimer's Desease,0,0,0,0,Yes
+879,33,M,Alzheimer's Desease,3,3,0,6,Yes
+880,51,F,Diarrhea,1,3,1,2,No
+881,81,F,Stroke,1,1,1,3,Yes
+882,45,M,Stroke,1,1,0,1,Yes
+883,63,F,Flu,1,2,1,0,Yes
+884,51,M,Chronic Pain,6,6,2,5,Yes
+885,28,F,Cancer,1,0,0,1,Yes
+886,23,F,Sclerosis,0,0,0,0,No
+887,61,M,Heart Desease,2,3,0,3,Yes
+888,81,M,Sclerosis,2,2,0,4,Yes
+889,87,M,Heart Desease,2,3,1,2,Yes
+890,43,F,Cancer,0,0,0,0,Yes
+891,68,M,Diabetes,4,7,1,14,Yes
+892,34,F,Diabetes,0,0,0,0,No
+893,88,F,Cancer,3,5,1,18,Yes
+894,35,M,Diarrhea,0,0,0,0,No
+895,62,F,Diarrhea,2,3,1,6,Yes
+896,82,F,Hypertension,3,6,2,11,Yes
+897,58,F,Chronic Pain,2,10,2,14,Yes
+898,48,M,Alzheimer's Desease,0,0,0,0,Yes
+899,60,F,Heart Desease,4,2,3,3,Yes
+900,80,M,Chronic Pain,2,3,0,2,Yes
+901,63,F,Hypertension,2,2,0,4,Yes
+902,70,F,Alzheimer's Desease,4,7,4,13,Yes
+903,56,F,Asthma,1,3,0,3,Yes
+904,53,M,Intoxication,1,3,0,8,Yes
+905,64,F,Asthma,4,4,1,6,Yes
+906,21,F,Diarrhea,0,0,0,0,No
+907,89,M,Stroke,0,0,0,0,Yes
+908,86,M,Hypertension,4,5,2,11,Yes
+909,88,F,Diarrhea,4,11,0,13,Yes
+910,69,F,Stroke,2,3,0,10,Yes
+911,37,M,Hypertension,1,0,1,0,No
+912,50,F,Hypertension,0,0,0,0,No
+913,38,M,Stroke,0,0,0,0,Yes
+914,55,F,Diabetes,2,4,3,10,Yes
+915,66,F,Cancer,0,0,0,0,Yes
+916,29,M,Cancer,0,0,0,0,Yes
+917,38,M,Sclerosis,1,1,1,3,No
+918,59,F,Hypertension,1,2,0,6,Yes
+919,34,M,Flu,1,2,0,6,Yes
+920,48,F,Cancer,1,2,0,3,Yes
+921,87,F,Cancer,3,9,2,12,Yes
+922,50,F,Hypertension,5,10,0,15,Yes
+923,24,F,Intoxication,0,0,0,0,No
+924,46,F,Stroke,1,1,1,1,Yes
+925,89,M,Cancer,5,7,2,20,Yes
+926,29,M,Intoxication,0,0,0,0,No
+927,68,F,Intoxication,2,5,1,6,Yes
+928,55,M,Diabetes,1,2,0,4,No
+929,47,M,Hypertension,3,7,2,9,Yes
+930,54,F,Alzheimer's Desease,4,5,1,7,Yes
+931,70,F,Intoxication,2,2,3,3,Yes
+932,59,F,Stroke,2,2,1,3,Yes
+933,75,M,Chronic Pain,1,1,0,2,Yes
+934,28,M,Heart Desease,0,0,0,0,Yes
+935,73,M,Hypertension,2,4,0,5,Yes
+936,68,M,Alzheimer's Desease,1,3,1,11,Yes
+937,27,F,Cancer,2,4,2,5,Yes
+938,89,M,Alzheimer's Desease,2,3,0,5,Yes
+939,57,M,Cancer,2,7,0,3,Yes
+940,52,F,Chronic Pain,5,9,1,17,Yes
+941,43,F,Sclerosis,2,2,1,8,Yes
+942,42,F,Chronic Pain,1,2,1,0,No
+943,32,M,Flu,1,1,0,2,No
+944,37,M,Chronic Pain,1,1,0,2,No
+945,32,M,Diarrhea,1,2,2,1,No
+946,30,F,Cancer,1,0,0,0,Yes
+947,36,M,Diabetes,1,1,0,1,No
+948,66,F,Diabetes,1,1,0,2,Yes
+949,74,M,Chronic Pain,2,0,2,1,Yes
+950,81,F,Diarrhea,1,1,1,5,Yes
+951,45,F,Hypertension,1,4,0,4,No
+952,50,F,Diabetes,2,3,1,6,Yes
+953,82,M,Diabetes,2,5,0,7,Yes
+954,62,F,Cancer,4,11,1,12,Yes
+955,86,M,Asthma,1,1,3,1,Yes
+956,32,F,Sclerosis,3,6,2,10,Yes
+957,78,F,Diabetes,3,4,3,5,Yes
+958,88,F,Intoxication,5,4,2,7,Yes
+959,31,M,Chronic Pain,3,4,4,13,Yes
+960,70,F,Intoxication,4,6,1,20,Yes
+961,20,F,Diarrhea,1,1,2,1,No
+962,88,M,Chronic Pain,2,5,0,4,Yes
+963,48,F,Chronic Pain,2,0,0,0,No
+964,49,F,Hypertension,0,0,0,0,No
+965,52,M,Asthma,2,3,1,2,Yes
+966,86,M,Intoxication,3,3,0,4,Yes
+967,20,M,Heart Desease,0,0,0,0,Yes
+968,88,F,Hypertension,4,6,0,17,Yes
+969,49,M,Flu,4,11,3,12,Yes
+970,72,M,Flu,4,7,0,10,Yes
+971,56,M,Heart Desease,2,5,2,5,Yes
+972,52,F,Diarrhea,1,3,0,4,No
+973,85,F,Cancer,4,8,0,5,Yes
+974,34,F,Diarrhea,1,2,0,2,No
+975,29,F,Chronic Pain,1,0,0,2,No
+976,47,F,Asthma,1,1,2,1,Yes
+977,50,F,Hypertension,1,2,0,2,No
+978,83,F,Diabetes,1,1,1,3,Yes
+979,44,M,Hypertension,1,2,0,5,Yes
+980,24,M,Alzheimer's Desease,1,0,0,2,Yes
+981,88,M,Chronic Pain,2,4,3,5,Yes
+982,52,M,Intoxication,1,2,1,2,No
+983,78,F,Chronic Pain,1,1,1,2,Yes
+984,42,F,Flu,0,0,0,0,No
+985,86,F,Hypertension,0,0,0,0,Yes
+986,62,F,Sclerosis,0,0,0,0,Yes
+987,52,M,Flu,0,0,0,0,No
+988,38,M,Heart Desease,0,0,0,0,Yes
+989,45,M,Chronic Pain,1,0,1,0,No
+990,20,M,Cancer,0,0,0,0,Yes
+991,55,F,Intoxication,5,5,0,5,Yes
+992,77,F,Sclerosis,1,1,1,3,Yes
+993,50,M,Diarrhea,0,0,0,0,No
+994,33,M,Stroke,1,0,0,1,Yes
+995,44,M,Flu,2,6,0,5,Yes
+996,63,M,Alzheimer's Desease,2,2,2,6,Yes
+997,47,M,Asthma,2,0,1,1,Yes
+998,31,F,Asthma,1,1,2,1,Yes
+999,27,F,Chronic Pain,2,2,1,5,Yes
+1000,61,F,Intoxication,3,4,2,5,Yes
